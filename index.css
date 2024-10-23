@@ -1,5 +1,9 @@
+   * {
+       position: relative;
+
+   }
                     body {
-                        background-image: url("1.jpg");
+                        background-image: url("images/1.jpg");
                         background-repeat: no-repeat;
                         background-size: cover;
                         position: relative;
@@ -19,6 +23,8 @@
                     }
 
                     #nav {
+                        position: relative;
+                            z-index: 0.1;
                        padding-right: 50px;
                        color: antiquewhite;
                        text-decoration-color: aliceblue;
@@ -32,7 +38,9 @@
                         max-height: max-content;
                         box-shadow: 0 2px rgb(43, 41, 49);  
                     }
-    
+                    a:hover{
+                        color: crimson;
+                    }
                     #img{
                     display: flex;
                     justify-content: space-around;
@@ -41,7 +49,7 @@
 
                     }
                     img:hover{
-                        transform: scale(1.2);
+                        transform: scale(1.1);
 
                     }
                     p{
@@ -57,7 +65,16 @@
                         font-weight: 300;
                         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                         font-size: large;
+                        background-color: rgb(128, 54, 111);
+                            border-radius: 25% 0;
+                            border-color: aqua;
                     }
+                        
                     button:hover{
-                        transform: scale(1.2);
-                    }
+                        transform: scale(1.1);
+                        
+                        }
+                        
+                        #home {
+                            color: blueviolet;
+                        }
